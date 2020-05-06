@@ -1,0 +1,5 @@
+<!-- <button bindtap="addData" type="primary">添加数据</button> -->
+<input placeholder="请输入要查询的东西" bindinput="wupin"></input>
+<button bindtap="getData" type="primary">查询数据</button>
+<view >{{name}}  ： {{datalist}}
+</view>
